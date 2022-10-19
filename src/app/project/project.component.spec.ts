@@ -24,11 +24,4 @@ describe('ProjectComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should say hello', () => {
-    expect(component.sayHello()).toBe("project works");
-  });
-
-  it('should have a title', () => {
-    expect(de.nativeElement.querySelector('p').textContent).toBe('project works!');
-  });
 });

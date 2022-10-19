@@ -4,15 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {RouterModule} from "@angular/router";
 import { ProjectComponent } from './project/project.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ProjectComponent
+    AppComponent, ProjectComponent
   ],
   imports: [
-    BrowserModule,
-    RouterModule
+    BrowserModule, RouterModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
