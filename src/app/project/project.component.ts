@@ -12,4 +12,7 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sayHello() {
+    return "project works";
+  }
 }
